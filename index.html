@@ -1,143 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Sarveshwar Hirve | Developer</title>
+<title>Sarveshwar | Full Stack Developer</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="hero">
+<button class="toggle-btn" onclick="toggleTheme()">☀️</button>
 
-<button class="toggle" onclick="toggleTheme()">🌙</button>
+<!-- HERO -->
+<section class="hero">
+  <h1>Turning ideas into<br>production-ready web applications</h1>
 
-<h1>Sarveshwar Hirve</h1>
-<p class="typing"></p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn primary">View Work</a>
+    <a href="resume/sarveshwar-hirve-resume.pdf" class="btn outline" download>Resume</a>
+  </div>
 
-<div class="social">
-<a href="https://github.com/sarveshwarhirve17-ux"><i class="fab fa-github"></i></a>
-<a href="https://www.linkedin.com/in/sarveshwar-hirve-89b414246"><i class="fab fa-linkedin"></i></a>
-<a href="https://www.instagram.com/xvii.iv.mmii"><i class="fab fa-instagram"></i></a>
-<a href="https://www.facebook.com/share/1CWRYu2e6z/"><i class="fab fa-facebook"></i></a>
-</div>
-
-<a href="resume/sarveshwar-resume.pdf" class="btn" target="_blank">Download Resume</a>
-
-</header>
-
-
-<!-- ABOUT -->
-<section class="about reveal">
-<h2>About Me</h2>
-
-<p>
-I am a self-driven Frontend Developer specializing in building scalable and user-focused web applications using React and modern JavaScript.  
-I focus on writing clean, maintainable code and creating intuitive user experiences.  
-
-Currently, I am actively working on real-world projects and preparing for remote opportunities with global teams.
-</p>
-
+  <!-- SOCIAL ICONS -->
+  <div class="social-icons">
+    <a href="mailto:sarveshwarhirve17@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/sarveshwarhirve17-ux"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/sarveshwar-hirve-89b414246"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://profile.indeed.com/p/sarveshwarh-t557bfj"><i class="fa-solid fa-briefcase"></i></a>
+    <a href="https://www.naukri.com/mnjuser/profile"><i class="fa-solid fa-user-tie"></i></a>
+  </div>
 </section>
 
-
-<!-- TECH STACK -->
-<section class="skills reveal">
-<h2>Tech Stack</h2>
-
-<div class="skill-box">
-
-<span><i class="fab fa-html5"></i> HTML</span>
-<span><i class="fab fa-css3-alt"></i> CSS</span>
-<span><i class="fab fa-js"></i> JavaScript</span>
-<span><i class="fab fa-react"></i> React</span>
-<span><i class="fab fa-python"></i> Python</span>
-<span><i class="fas fa-server"></i> FastAPI</span>
-<span><i class="fab fa-git-alt"></i> Git</span>
-<span><i class="fas fa-database"></i> PostgreSQL</span>
-
-</div>
-
+<!-- DESCRIPTION -->
+<section class="about">
+  <p>
+    I build modern, scalable, and high-performance web applications that solve real-world problems. 
+Focused on clean UI, optimized performance, and user-first design, I create products that are not just functional 
+but also intuitive and impactful. Constantly learning and improving to deliver production-ready solutions.
+  </p>
 </section>
-
 
 <!-- PROJECTS -->
-<section class="projects reveal">
-<h2>Projects</h2>
+<section id="projects">
+<h2 class="section-title">Projects</h2>
 
 <div class="grid">
 
-<!-- AI TASK -->
 <div class="card">
-<img src="images/ai-task-manager01.png">
-<h3>AI Task Manager</h3>
-<p>Advanced task manager with AI suggestions, filters and notes system.</p>
-<a href="https://ai-task-manager-i8ej.vercel.app" target="_blank">Live</a>
-<a href="https://github.com/sarveshwarhirve17-ux/ai-task-manager" target="_blank">Code</a>
+<img src="images/netflix/netflix1.png">
+<div class="overlay">
+<a href="https://sarveshwarhirve17-ux.github.io/Netflix-clone/">Live</a>
+<a href="https://github.com/sarveshwarhirve17-ux/Netflix-clone">Code</a>
 </div>
-
-<!-- NETFLIX -->
-<div class="card">
-<img src="images/netflix1.png">
 <h3>Netflix Clone</h3>
-<p>Responsive Netflix UI clone with modern layout.</p>
-<a href="https://sarveshwarhirve17-ux.github.io/Netflix-clone/" target="_blank">Live</a>
-<a href="https://github.com/sarveshwarhirve17-ux/Netflix-clone" target="_blank">Code</a>
+<p>Responsive UI with modern layout and smooth hover interactions.</p>
 </div>
 
-<!-- TODO -->
 <div class="card">
-<img src="images/todo1.png">
+<img src="images/todo/todo1.png">
+<div class="overlay">
+<a href="https://sarveshwarhirve17-ux.github.io/todo-app/">Live</a>
+<a href="https://github.com/sarveshwarhirve17-ux/todo-app">Code</a>
+</div>
 <h3>Todo App</h3>
-<p>Task manager with CRUD operations and localStorage.</p>
-<a href="https://sarveshwarhirve17-ux.github.io/todo-app/" target="_blank">Live</a>
-<a href="https://github.com/sarveshwarhirve17-ux/todo-app" target="_blank">Code</a>
+<p>Task manager with persistent storage using localStorage.</p>
 </div>
 
-<!-- INTERNSHIP -->
 <div class="card">
-<img src="images/internship1.png">
-<h3>Cognifyz Internship</h3>
-<p>Frontend internship with real-world project experience.</p>
-<a href="https://sarveshwarhirve17-ux.github.io/cognifyz-internship/" target="_blank">Live</a>
+<img src="images/ai-task-manager/ai-task-manager01.png">
+<div class="overlay">
+<a href="https://ai-task-manager-i8ej.vercel.app/">Live</a>
+<a href="https://github.com/sarveshwarhirve17-ux/ai-task-manager">Code</a>
+</div>
+<h3>AI Task Manager</h3>
+<p>AI-powered system to manage and optimize productivity workflows.</p>
+</div>
+
+<div class="card">
+<img src="images/internship-project/internship1.png">
+<h3>Internship Project</h3>
+<p>Hands-on experience working on real-world development tasks.</p>
 </div>
 
 </div>
-
 </section>
 
+<!-- CERTIFICATES -->
+<section id="certificates">
+<h2 class="section-title">Certificates</h2>
 
-<!-- CONTACT -->
-<section class="contact reveal">
+<div class="grid">
 
-<h2>Contact</h2>
-
-<p>Email: sarveshwarhirve17@gmail.com</p>
-
-<div class="social">
-<a href="https://github.com/sarveshwarhirve17-ux">GitHub</a>
-<a href="https://www.linkedin.com/in/sarveshwar-hirve-89b414246">LinkedIn</a>
-<a href="https://www.instagram.com/xvii.iv.mmii">Instagram</a>
-<a href="https://www.facebook.com/share/1CWRYu2e6z/">Facebook</a>
+<div class="card cert">
+<h3>10X Developer</h3>
+<a href="certificate/10x-developer-certificate.pdf">View Certificate</a>
 </div>
 
+<div class="card cert">
+<h3>Generative AI</h3>
+<a href="certificate/generative-ai-certificate.pdf">View Certificate</a>
+</div>
+
+<div class="card cert">
+<h3>Internship</h3>
+<a href="certificate/internship-certificate.pdf">View Certificate</a>
+</div>
+
+</div>
 </section>
 
-
+<!-- FOOTER -->
 <footer>
-<p>© 2026 Sarveshwar Hirve</p>
+  <p>@2026 Sarveshwar Hirve</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>

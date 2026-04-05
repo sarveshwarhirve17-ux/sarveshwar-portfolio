@@ -1,109 +1,199 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background: #0f172a;
-  color: white;
-  transition: 0.3s;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
 }
 
-.light {
-  background: #f1f5f9;
-  color: black;
+body{
+  background:radial-gradient(circle at top,#0f172a,#020617);
+  color:white;
+  overflow-x:hidden;
 }
 
-.hero {
-  text-align: center;
-  padding: 60px;
+/* HERO */
+.hero{
+  min-height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:40px 20px;
 }
 
-.toggle {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  padding: 8px;
-  cursor: pointer;
+.hero h1{
+  font-size:44px;
+  max-width:800px;
+  line-height:1.3;
+  margin-bottom:10px;
+  background:linear-gradient(90deg,#6366f1,#a855f7);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
 }
 
-.social a {
-  margin: 10px;
-  font-size: 20px;
-  color: #06b6d4;
+/* BUTTONS */
+.hero-btns{
+  margin-top:25px;
+  margin-bottom:10px;
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  flex-wrap:wrap;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px;
-  background: #06b6d4;
-  color: black;
-  border-radius: 6px;
+.btn{
+  padding:12px 24px;
+  border-radius:12px;
+  text-decoration:none;
+  transition:0.3s;
 }
 
-.skills, .projects, .about, .contact {
-  padding: 40px;
-  text-align: center;
+.primary{
+  background:#6366f1;
 }
 
-.skill-box span {
-  margin: 5px;
-  padding: 8px;
-  background: #1e293b;
-  display: inline-block;
-  border-radius: 6px;
+.primary:hover{
+  box-shadow:0 0 25px #6366f1;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 20px;
+.outline{
+  border:1px solid #6366f1;
 }
 
-.card {
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-  transition: 0.3s;
+.outline:hover{
+  background:#6366f1;
 }
 
-.card:hover {
-  transform: scale(1.05);
+/* SOCIAL */
+.social-icons{
+  margin-top:15px;
 }
 
-.card img {
-  width: 100%;
+.social-icons a{
+  margin:10px;
+  font-size:22px;
+  color:#94a3b8;
+  transition:0.3s;
 }
 
-.card a {
-  display: inline-block;
-  margin: 5px;
-  padding: 6px;
-  background: #06b6d4;
-  color: black;
-  border-radius: 5px;
+.social-icons a:hover{
+  color:#6366f1;
+  transform:scale(1.3);
 }
 
-/* animation */
-.reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 1s;
+/* DESCRIPTION */
+.about{
+  text-align:center;
+  max-width:900px;
+  margin:80px auto 60px;
+  padding:0 20px;
+  color:#cbd5f5;
+  font-size:22px;
+  line-height:1.9;
+  font-weight:400;
 }
 
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
+/* SECTION */
+section{
+  padding:100px 40px;
 }
 
-.skill-box span {
-  display: inline-block;
-  margin: 6px;
-  padding: 10px 14px;
-  background: #1e293b;
-  border-radius: 8px;
-  font-size: 14px;
+.section-title{
+  text-align:center;
+  margin-bottom:40px;
 }
 
-.skill-box i {
-  margin-right: 6px;
-  color: #06b6d4;
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+/* CARD */
+.card{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-radius:20px;
+  overflow:hidden;
+  position:relative;
+  transform:translateY(50px);
+  opacity:0;
+  transition:0.6s;
+}
+
+.card img{
+  width:100%;
+}
+
+.card h3{
+  padding:15px;
+}
+
+.card p{
+  padding:0 15px 15px;
+  color:#94a3b8;
+}
+
+/* OVERLAY */
+.overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.8);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  opacity:0;
+  transition:0.3s;
+}
+
+.card:hover .overlay{
+  opacity:1;
+}
+
+.overlay a{
+  background:#6366f1;
+  padding:10px;
+  border-radius:8px;
+  color:white;
+  text-decoration:none;
+}
+
+/* ANIMATION */
+.show{
+  transform:translateY(0);
+  opacity:1;
+}
+
+/* CERT */
+.cert{
+  text-align:center;
+  padding:30px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:#94a3b8;
+}
+
+/* TOGGLE */
+.toggle-btn{
+  position:fixed;
+  top:20px;
+  right:20px;
+  padding:10px;
+  border:none;
+  border-radius:50%;
+  background:#6366f1;
+  cursor:pointer;
+}
+
+.light{
+  background:white;
+  color:black;
 }
