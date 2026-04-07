@@ -1,3 +1,5 @@
+console.log("Portfolio Loaded Successfully🚀")
+
 const cards = document.querySelectorAll(".card");
 const about = document.querySelector(".about");
 
