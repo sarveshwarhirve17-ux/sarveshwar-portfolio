@@ -1,143 +1,102 @@
-# 🚀 Sarveshwar Hirve — Full Stack Developer Portfolio
+# 🚀 Sarveshwar Hirve — Full Stack Developer
 
-Turning ideas into production-ready web applications with clean UI, scalable architecture, and real-world usability.
+💡 Turning ideas into **production-ready web applications** with clean UI, scalable backend systems, and real-world usability.
 
 ---
 
 ## 🌐 Live Portfolio
-👉 https://ai-task-manager-i8ej.vercel.app/
+
+👉 https://sarveshwarhirve17-ux.github.io/sarveshwar-portfolio/
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a passionate Full Stack Developer focused on building modern, scalable, and high-performance web applications.  
-I specialize in creating clean UI, solving real-world problems, and delivering production-ready solutions.
+I am a **results-driven Full Stack Developer** focused on building modern, high-performance web applications. I specialize in crafting **clean user interfaces** and **robust backend systems** that solve real-world problems.
 
-✔ Strong focus on UI/UX  
-✔ Performance optimized applications  
-✔ Continuous learner & problem solver  
-
----
-
-## 🛠️ Tech Stack
-
-- Frontend: HTML, CSS, JavaScript, React  
-- Backend: Python (FastAPI - learning phase)  
-- Database: PostgreSQL / MongoDB  
-- Tools: Git, GitHub, VS Code, Postman  
-- Deployment: Vercel, GitHub Pages  
+⚡ Strong focus on real-world execution  
+⚡ Clean and scalable architecture  
+⚡ Continuous learning & rapid improvement  
 
 ---
 
-## 📂 Projects
+## ⚡ Tech Stack
+
+### 🖥️ Frontend
+- HTML5, CSS3, JavaScript
+- React.js
+
+### ⚙️ Backend
+- Python
+- FastAPI
+
+### 🗄️ Database
+- PostgreSQL
+- SQLite
+
+### 🛠️ Tools & Deployment
+- Git & GitHub
+- VS Code
+- Postman
+- Vercel
+- GitHub Pages
+
+---
+
+## 📂 Featured Projects
 
 ### 🎬 Netflix Clone
-- Responsive UI with modern layout  
-- Hover effects & interactive design  
-- Clean UI similar to real Netflix  
-- No API used  
-
+✨ Responsive UI with modern layout and smooth interactions  
 🔗 Live: https://sarveshwarhirve17-ux.github.io/Netflix-clone/  
-💻 Code: https://github.com/sarveshwarhirve17-ux/Netflix-clone.git  
+🔗 Code: https://github.com/sarveshwarhirve17-ux/Netflix-clone  
 
 ---
 
 ### ✅ Todo App
-- Add, delete, and manage tasks  
-- Data stored using localStorage  
-- Clean UI and smooth interactions  
-- Fully responsive  
-
+🧠 Task management system with persistent storage (localStorage)  
 🔗 Live: https://sarveshwarhirve17-ux.github.io/todo-app/  
-💻 Code: https://github.com/sarveshwarhirve17-ux/todo-app.git  
+🔗 Code: https://github.com/sarveshwarhirve17-ux/todo-app  
 
 ---
 
 ### 🤖 AI Task Manager
-- AI-powered productivity concept  
-- Structured task organization  
-- Clean dashboard UI  
-- Scalable architecture (future-ready for API integration)  
-
+🚀 Productivity-focused system with structured workflow management  
 🔗 Live: https://ai-task-manager-i8ej.vercel.app/  
-💻 Code: https://github.com/sarveshwarhirve17-ux/ai-task-manager.git  
+🔗 Code: https://github.com/sarveshwarhirve17-ux/ai-task-manager  
 
 ---
 
-### 💼 Internship Project
-- Worked on real-world development tasks  
-- Gained practical experience in UI & project structure  
-- Improved debugging and problem-solving skills  
+### 🔐 KeyVaultX — API Key Management System
+⚡ Backend-focused project built using FastAPI  
+
+🔹 Generate secure API keys  
+🔹 Store keys in database  
+🔹 Fetch all stored keys  
+🔹 Delete keys by ID  
+🔹 RESTful API architecture  
+🔹 Interactive Swagger UI  
+
+🛠️ Tech: FastAPI • Python • SQLAlchemy • SQLite  
+
+🔗 Code: https://github.com/sarveshwarhirve17-ux/KeyVaultX  
 
 ---
 
-## 📜 Certificates
+## 📫 Connect With Me
 
-- 🏆 10X Developer Certificate  
-- 🤖 Generative AI Certificate  
-- 💼 Internship Completion Certificate  
-
----
-
-## 📬 Connect With Me
-
-<p align="center">
-
-<a href="mailto:sarveshwarhirve17@gmail.com">
-  <img src="https://img.icons8.com/fluency/48/gmail-new.png" width="40"/>
-</a>
-
-<a href="https://github.com/sarveshwarhirve17-ux">
-  <img src="https://img.icons8.com/ios-glyphs/48/github.png" width="40"/>
-</a>
-
-<a href="https://www.linkedin.com/in/sarveshwar-hirve-89b414246">
-  <img src="https://img.icons8.com/color/48/linkedin.png" width="40"/>
-</a>
-
-<a href="https://profile.indeed.com/p/sarveshwarh-t557bfj">
-  <img src="https://img.icons8.com/color/48/briefcase.png" width="40"/>
-</a>
-
-<a href="https://www.naukri.com/mnjuser/profile">
-  <img src="https://img.icons8.com/color/48/resume.png" width="40"/>
-</a>
-
-</p>
-
----
-
-## 💡 Key Strengths
-
-- Clean & modern UI design  
-- Strong problem-solving mindset  
-- Fast learner with practical approach  
-- Focus on real-world project building  
+📧 Email: sarveshwarhirve17@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/sarveshwar-hirve-89b414246  
+🐙 GitHub: https://github.com/sarveshwarhirve17-ux  
+📸 Instagram: https://instagram.com/xvii.iv.mmii  
+📘 Facebook: https://www.facebook.com/sarveshwar.hirve.  
 
 ---
 
 ## 🎯 Career Goal
 
-To work as a Remote Full Stack Developer in an international company,  
-building scalable applications and contributing to impactful products.
+🌍 Actively looking for **remote opportunities (India + International)**  
+🚀 Ready to contribute, learn fast, and grow as a **Full Stack Developer**
 
 ---
 
-## ⭐ Extra Highlights
-
-✔ Responsive Design  
-✔ Smooth Animations  
-✔ Modern UI/UX  
-✔ Production-ready mindset  
-✔ Portfolio built with real projects  
-
----
-
-## 📌 Note
-
-This portfolio is continuously improving as I learn and build more advanced projects.
-
----
-
-© 2026 Sarveshwar Hirve
+⭐ If you like my work, feel free to connect or collaborate!
